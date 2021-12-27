@@ -4,7 +4,7 @@ Generate fake data and save db with multiple nest service
 ## After clone the project;
 We need to docker build projects.
 
-$ cd fake-data-generator-service
+$ cd nestjs-service
 
 $ docker build -t nestjs .
 
