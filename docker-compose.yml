@@ -1,0 +1,14 @@
+version: '2'
+services:
+  nestjs-service:
+    image: nestjs
+    ports:
+      - 8000:8000
+    links:
+      - mongo
+    depends_on:
+      - mongo
+  data-generator:
+    image: data-generator
+    ports:
+      - 3000:3000
